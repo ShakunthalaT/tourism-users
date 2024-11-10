@@ -1,0 +1,17 @@
+###
+send request
+POST http://localhost:3000/users/
+Content-Type:application/json 
+
+{
+    "username" : "Rahul",
+    "email" : "rahul123@gmail.com",
+    "phone_number" : 7098654321,
+    "adult" : "1 adult",
+    "child" : "2 child"
+} 
+
+### 
+
+send request 
+GET http://localhost:3000/profile/
